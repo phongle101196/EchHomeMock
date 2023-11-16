@@ -1,0 +1,10 @@
+package com.mock.payload.reponse;
+
+import com.mock.payload.request.UserDto;
+import lombok.Data;
+
+@Data
+public class JwtAuthResponse {
+    private String token;
+    private UserDto user;
+}
